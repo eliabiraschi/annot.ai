@@ -1,0 +1,23 @@
+{
+  "name": "annotaistaticsite",
+  "version": "1.0.0",
+  "description": "Annot.AI Static Site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js",
+    "server": "node build.js && http-server -c-1"
+  },
+  "author": "Elia Biraschi",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.3",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.3",
+    "style-loader": "^0.18.1",
+    "webpack": "^2.6.1"
+  }
+}
